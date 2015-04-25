@@ -1,0 +1,18 @@
+{
+  "name": "verstat-template",
+  "description": "Accordtionist site",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vladigoal/accordion.git"
+  },
+  "version": "0.0.1",
+  "dependencies": {
+    "verstat": "^3.10.1",
+    "verstat-cli": "^1.1.1",
+    "verstat-plugin-coffee": "^1.0.0",
+    "verstat-plugin-jade": "^1.4.0",
+    "verstat-plugin-livereload": "^1.1.0",
+    "verstat-plugin-stylus": "^1.2.1",
+    "verstat-plugin-watch": "^1.0.0"
+  }
+}
