@@ -3,7 +3,7 @@
   "description": "Accordtionist site",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vladigoal/accordion.git"
+    "url": "git@github.com:vladigoal/accordion.git"
   },
   "version": "0.0.1",
   "dependencies": {
