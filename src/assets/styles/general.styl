@@ -1,0 +1,55 @@
+html
+    height: 100%;
+    background menuBg
+body
+    min-height: 100%;
+    background url("img/index-bg.jpg") center top no-repeat
+    background-color menuBg
+    background-size 100% auto
+    
+.main-wrapper
+    position relative
+    width conainerWidth
+    margin 0 auto
+        
+    .logo
+        display inline-block
+        margin 15px ((conainerWidth - 260) / 2)
+        
+.nav-arrow
+    position absolute
+    top 50%
+    left 50%
+    width 98px
+    height 40px
+    margin-top -20px
+    padding 9px 19px 7px 19px 
+    color #fff
+    line-height 24px
+    font-size 14px
+    font-weight 600
+    text-align center
+    text-decoration none
+    text-transform uppercase
+    background colorPurple
+    border-radius(30px)
+    box-sizing border-box
+
+    i
+        position absolute
+        font-size 18px
+        top 12px
+        
+    &.prev
+        margin-left -491px
+        padding-left 30px
+        
+        i
+            left 10px
+    &.next
+        margin-left 491px
+        padding-right 30px
+        
+        i
+            right 10px
+        

@@ -1,0 +1,10 @@
+---
+/*group-css-media-queries: true*/
+cssmin: true
+---
+/*! layout.css v1.0.0 | SE7ENSKY frontend studio <hello@se7ensky.com> */
+
+
+/*= require assets/styles/reset */
+/*= require assets/styles/general */
+/*= require_tree blocks */

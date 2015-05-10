@@ -1,0 +1,51 @@
+.menu
+    position absolute
+    left 0
+    bottom 0
+    width 100%
+    background menuBg
+    border-top 3px solid colorGold
+    
+    &__list
+        width 730px
+        margin 0 auto
+        padding 20px 0
+        clearfix()
+        
+        li
+            float left
+            margin 0 42px
+            
+            &:first-child
+                width 25px
+                height 24px
+                background-image url("img/home-icon.png")
+                background-repeat no-repeat
+                background-position 0 0
+                
+                &:hover
+                    background-position 0 -24px
+                        
+            a
+                display inline-block
+                color #fff
+                font-family 'Roboto'
+                font-size 16px
+                line-height 24px
+                text-decoration none
+                text-transform uppercase
+                
+                &:hover
+                    color: menuColor
+                
+            &.current_page_item
+                &:first-child
+                    background-position 0 -24px
+                    
+                a
+                    color: menuColor
+                    padding-left 16px
+                    background-image url("img/menu-active.png")
+                    background-position left center
+                    background-repeat no-repeat
+                

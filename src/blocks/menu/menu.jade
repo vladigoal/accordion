@@ -1,4 +1,7 @@
 +e("ul").list
-    each menu in mainMenu
+    each menu, index in mainMenu
         li
-            a(href="#{menu.url}") #{menu.title}
+            if index == 0
+                a(href="#{menu.url}")
+            else
+                a(href="#{menu.url}") #{menu.title}
